@@ -1,6 +1,9 @@
 package net.brendermen.remarkable;
 
 import com.mojang.logging.LogUtils;
+import net.brendermen.remarkable.block.ModBlocks;
+import net.brendermen.remarkable.item.ModItems;
+import net.brendermen.remarkable.util.ModTab;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,8 +24,11 @@ public class Remarkable {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Remarkable() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
+        modEventBus.addListener(ModTab::addCreative);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

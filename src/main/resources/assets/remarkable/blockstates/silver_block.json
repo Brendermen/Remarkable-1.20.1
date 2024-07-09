@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "remarkable:block/silver_block"
+    }
+  }
+}
