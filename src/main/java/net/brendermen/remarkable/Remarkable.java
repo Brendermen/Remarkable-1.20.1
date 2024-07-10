@@ -26,9 +26,11 @@ public class Remarkable {
     public Remarkable() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         modEventBus.addListener(ModTab::addCreative);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
