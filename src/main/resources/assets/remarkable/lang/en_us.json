@@ -3,18 +3,21 @@
   "block.remarkable.aqua_wool": "Aqua Wool",
   "block.remarkable.azure_wool": "Azure Wool",
   "block.remarkable.blush_wool": "Blush Wool",
-  "block.remarkable.cerulean_wool": "Cerulean Wool",
   "block.remarkable.forest_wool": "Forest Wool",
   "block.remarkable.fuchsia_wool": "Fuchsia Wool",
   "block.remarkable.indigo_wool": "Indigo Wool",
   "block.remarkable.lemon_wool": "Lemon Wool",
   "block.remarkable.mint_wool": "Mint Wool",
-  "block.remarkable.royal_wool": "Royal Wool",
+  "block.remarkable.polished_stone": "Polished Stone",
   "block.remarkable.scarlet_wool": "Scarlet Wool",
   "block.remarkable.silver_block": "Block of Silver",
-  "item.remarkable.silver_ingot": "Silver Ingot",
+  "block.remarkable.stone_tiles": "Stone Tiles",
   "block.remarkable.teal_wool": "Teal Wool",
   "block.remarkable.turquoise_wool": "Turquoise Wool",
   "block.remarkable.velvet_wool": "Velvet Wool",
-  "block.remarkable.violet_wool": "Violet Wool"
+  "block.remarkable.violet_wool": "Violet Wool",
+
+
+
+  "item.remarkable.silver_ingot": "Silver Ingot"
 }

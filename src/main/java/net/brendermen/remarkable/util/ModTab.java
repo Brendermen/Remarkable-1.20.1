@@ -39,8 +39,6 @@ public class ModTab {
 
     private static void Building_Blocks(BuildCreativeModeTabContentsEvent event) {
 
-        event.getEntries().putBefore(Items.GOLD_BLOCK.getDefaultInstance(),
-                ModBlocks.SILVER_BLOCK.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
     }
 
     private static void Colored_Blocks(BuildCreativeModeTabContentsEvent event) {
@@ -73,8 +71,6 @@ public class ModTab {
 
     private static void INGREDIENTS(BuildCreativeModeTabContentsEvent event) {
 
-        event.getEntries().putBefore(Items.GOLD_INGOT.getDefaultInstance(),
-                ModItems.SILVER_INGOT.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
     }
 
     private static void SPAWN_EGGS(BuildCreativeModeTabContentsEvent event) {
