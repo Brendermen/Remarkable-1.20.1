@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "remarkable:block/magma_pillar_top",
+    "side": "remarkable:block/magma_pillar"
+  }
+}

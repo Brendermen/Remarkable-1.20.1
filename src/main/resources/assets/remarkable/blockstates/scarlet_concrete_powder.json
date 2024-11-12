@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "remarkable:block/scarlet_concrete_powder"
+      },
+      {
+        "model": "remarkable:block/scarlet_concrete_powder",
+        "y": 90
+      },
+      {
+        "model": "remarkable:block/scarlet_concrete_powder",
+        "y": 180
+      },
+      {
+        "model": "remarkable:block/scarlet_concrete_powder",
+        "y": 270
+      }
+    ]
+  }
+}

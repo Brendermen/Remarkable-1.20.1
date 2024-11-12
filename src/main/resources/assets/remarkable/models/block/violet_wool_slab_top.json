@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "remarkable:block/violet_wool",
+    "side": "remarkable:block/violet_wool",
+    "top": "remarkable:block/violet_wool"
+  }
+}

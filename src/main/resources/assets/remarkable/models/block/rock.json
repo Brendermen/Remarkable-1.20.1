@@ -1,0 +1,7 @@
+{
+  "parent": "remarkable:block/template_floor_layer",
+  "textures": {
+    "texture": "remarkable:block/rock"
+  },
+  "render_type": "cutout"
+}

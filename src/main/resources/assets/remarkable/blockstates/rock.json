@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "remarkable:block/rock"
+      },
+      {
+        "model": "remarkable:block/rock",
+        "y": 90
+      },
+      {
+        "model": "remarkable:block/rock",
+        "y": 180
+      },
+      {
+        "model": "remarkable:block/rock",
+        "y": 270
+      }
+    ]
+  }
+}

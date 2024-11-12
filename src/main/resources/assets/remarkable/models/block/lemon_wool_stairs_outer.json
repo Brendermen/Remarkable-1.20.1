@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remarkable:block/lemon_wool",
+    "side": "remarkable:block/lemon_wool",
+    "top": "remarkable:block/lemon_wool"
+  }
+}

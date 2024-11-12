@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "remarkable:block/clay_tiles"
+    }
+  }
+}

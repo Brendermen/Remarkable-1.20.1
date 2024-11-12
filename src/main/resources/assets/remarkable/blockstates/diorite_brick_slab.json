@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remarkable:block/diorite_brick_slab"
+    },
+    "type=double": {
+      "model": "remarkable:block/diorite_bricks"
+    },
+    "type=top": {
+      "model": "remarkable:block/diorite_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "remarkable:block/cracked_stone_pillar_top",
+    "side": "remarkable:block/cracked_stone_pillar"
+  }
+}

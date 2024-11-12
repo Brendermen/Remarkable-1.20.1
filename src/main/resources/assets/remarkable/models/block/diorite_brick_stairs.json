@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remarkable:block/diorite_bricks",
+    "side": "remarkable:block/diorite_bricks",
+    "top": "remarkable:block/diorite_bricks"
+  }
+}

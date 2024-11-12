@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "side": "remarkable:block/grass_slab",
+    "top": "minecraft:block/grass_block_top"
+  }
+}

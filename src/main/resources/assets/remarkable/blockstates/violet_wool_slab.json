@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remarkable:block/violet_wool_slab"
+    },
+    "type=double": {
+      "model": "remarkable:block/violet_wool"
+    },
+    "type=top": {
+      "model": "remarkable:block/violet_wool_slab_top"
+    }
+  }
+}

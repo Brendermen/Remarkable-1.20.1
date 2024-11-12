@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remarkable:block/azure_wool_slab"
+    },
+    "type=double": {
+      "model": "remarkable:block/azure_wool"
+    },
+    "type=top": {
+      "model": "remarkable:block/azure_wool_slab_top"
+    }
+  }
+}

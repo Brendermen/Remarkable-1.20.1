@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remarkable:block/stone_tile_slab"
+    },
+    "type=double": {
+      "model": "remarkable:block/stone_tiles"
+    },
+    "type=top": {
+      "model": "remarkable:block/stone_tile_slab_top"
+    }
+  }
+}

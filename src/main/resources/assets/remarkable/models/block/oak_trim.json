@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "remarkable:block/oak_boards",
+    "side": "remarkable:block/oak_trim",
+    "top": "remarkable:block/oak_boards"
+  }
+}

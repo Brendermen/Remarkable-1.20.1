@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "remarkable:block/calcite_bricks"
+    }
+  }
+}

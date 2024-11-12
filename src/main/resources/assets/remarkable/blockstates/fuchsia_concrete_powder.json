@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "remarkable:block/fuchsia_concrete_powder"
+      },
+      {
+        "model": "remarkable:block/fuchsia_concrete_powder",
+        "y": 90
+      },
+      {
+        "model": "remarkable:block/fuchsia_concrete_powder",
+        "y": 180
+      },
+      {
+        "model": "remarkable:block/fuchsia_concrete_powder",
+        "y": 270
+      }
+    ]
+  }
+}

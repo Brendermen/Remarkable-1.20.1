@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remarkable:block/cream_wool",
+    "side": "remarkable:block/cream_wool",
+    "top": "remarkable:block/cream_wool"
+  }
+}

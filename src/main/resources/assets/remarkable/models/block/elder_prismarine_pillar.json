@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "remarkable:block/elder_prismarine_pillar_top",
+    "side": "remarkable:block/elder_prismarine_pillar"
+  }
+}

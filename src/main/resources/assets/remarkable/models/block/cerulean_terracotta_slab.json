@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "remarkable:block/cerulean_terracotta",
+    "side": "remarkable:block/cerulean_terracotta",
+    "top": "remarkable:block/cerulean_terracotta"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remarkable:block/cream_terracotta_bricks",
+    "side": "remarkable:block/cream_terracotta_bricks",
+    "top": "remarkable:block/cream_terracotta_bricks"
+  }
+}

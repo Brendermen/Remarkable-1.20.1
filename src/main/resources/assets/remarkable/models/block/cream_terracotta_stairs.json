@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remarkable:block/cream_terracotta",
+    "side": "remarkable:block/cream_terracotta",
+    "top": "remarkable:block/cream_terracotta"
+  }
+}

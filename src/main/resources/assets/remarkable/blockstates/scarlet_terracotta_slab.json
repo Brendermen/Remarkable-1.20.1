@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remarkable:block/scarlet_terracotta_slab"
+    },
+    "type=double": {
+      "model": "remarkable:block/scarlet_terracotta"
+    },
+    "type=top": {
+      "model": "remarkable:block/scarlet_terracotta_slab_top"
+    }
+  }
+}

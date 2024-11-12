@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remarkable:block/mossy_stone_tiles",
+    "side": "remarkable:block/mossy_stone_tiles",
+    "top": "remarkable:block/mossy_stone_tiles"
+  }
+}

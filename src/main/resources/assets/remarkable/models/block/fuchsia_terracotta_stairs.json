@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remarkable:block/fuchsia_terracotta",
+    "side": "remarkable:block/fuchsia_terracotta",
+    "top": "remarkable:block/fuchsia_terracotta"
+  }
+}

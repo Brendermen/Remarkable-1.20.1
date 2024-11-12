@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "remarkable:block/polished_amber_terracotta"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "remarkable:block/mud_tiles"
+    }
+  }
+}

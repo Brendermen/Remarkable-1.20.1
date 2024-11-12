@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "remarkable:block/netherrack_pillar_top",
+    "side": "remarkable:block/netherrack_pillar"
+  }
+}

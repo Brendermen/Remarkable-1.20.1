@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "remarkable:block/tall_allium_bottom"
+    },
+    "half=upper": {
+      "model": "remarkable:block/tall_allium_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "remarkable:block/azure_terracotta",
+    "side": "remarkable:block/azure_terracotta",
+    "top": "remarkable:block/azure_terracotta"
+  }
+}

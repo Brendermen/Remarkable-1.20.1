@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remarkable:block/scarlet_concrete",
+    "side": "remarkable:block/scarlet_concrete",
+    "top": "remarkable:block/scarlet_concrete"
+  }
+}

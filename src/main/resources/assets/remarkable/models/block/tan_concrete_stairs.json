@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remarkable:block/tan_concrete",
+    "side": "remarkable:block/tan_concrete",
+    "top": "remarkable:block/tan_concrete"
+  }
+}

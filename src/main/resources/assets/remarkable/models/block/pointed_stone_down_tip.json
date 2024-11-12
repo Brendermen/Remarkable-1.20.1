@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/pointed_dripstone",
+  "textures": {
+    "cross": "remarkable:block/pointed_stone_down_tip"
+  },
+  "render_type": "cutout"
+}
