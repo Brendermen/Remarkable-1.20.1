@@ -3,6 +3,7 @@ package net.brendermen.remarkable;
 import com.mojang.logging.LogUtils;
 import net.brendermen.remarkable.block.ModBlocks;
 import net.brendermen.remarkable.item.ModItems;
+import net.brendermen.remarkable.loot.ModLootModifiers;
 import net.brendermen.remarkable.util.ModTab;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,8 @@ public class Remarkable {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModLootModifiers.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
