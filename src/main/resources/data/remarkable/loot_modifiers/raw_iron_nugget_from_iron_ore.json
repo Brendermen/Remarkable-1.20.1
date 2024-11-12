@@ -1,0 +1,12 @@
+{
+  "type": "remarkable:replace_item",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:iron_ore"
+    }
+  ],
+  "item": "remarkable:raw_iron_nugget",
+  "countMin": 2,
+  "countMax": 4
+}
