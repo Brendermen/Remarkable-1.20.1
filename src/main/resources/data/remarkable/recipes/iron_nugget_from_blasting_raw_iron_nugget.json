@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "remarkable:raw_iron_nugget"
+  },
+  "result": "minecraft:iron_nugget"
+}
