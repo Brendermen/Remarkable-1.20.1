@@ -1,6 +1,7 @@
 {
   "replace": false,
   "entries": [
-    "remarkable:raw_iron_nugget_from_iron_ore"
+    "remarkable:iron_ore_modified_loot_table",
+    "remarkable:deepslate_iron_ore_modified_loot_table"
   ]
 }

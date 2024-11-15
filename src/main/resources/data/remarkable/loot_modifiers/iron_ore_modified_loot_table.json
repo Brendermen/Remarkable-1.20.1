@@ -1,0 +1,23 @@
+{
+  "type": "remarkable:unified_loot_modifier",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:iron_ore"
+    }
+  ],
+  "mode": "replace",
+  "items": [
+    {
+      "item": "remarkable:raw_iron_nugget",
+      "min": 2,
+      "max": 4,
+      "weight": 1.0
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "count": 1,
+      "weight": 1.0
+    }
+  ]
+}

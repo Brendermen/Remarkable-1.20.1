@@ -1,0 +1,23 @@
+{
+  "type": "remarkable:unified_loot_modifier",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:deepslate_iron_ore"
+    }
+  ],
+  "mode": "replace",
+  "items": [
+    {
+      "item": "remarkable:raw_iron_nugget",
+      "min": 8,
+      "max": 10,
+      "weight": 1.0
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "count": 1,
+      "weight": 1.0
+    }
+  ]
+}
