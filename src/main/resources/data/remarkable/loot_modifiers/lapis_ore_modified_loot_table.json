@@ -1,0 +1,23 @@
+{
+  "type": "remarkable:unified_loot_modifier",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:lapis_ore"
+    }
+  ],
+  "mode": "add",
+  "items": [
+    {
+      "item": "remarkable:raw_gold_nugget",
+      "min": 1,
+      "max": 2,
+      "weight": 0.3
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "count": 1,
+      "weight": 1.0
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "replace": false,
   "entries": [
     "remarkable:iron_ore_modified_loot_table",
-    "remarkable:deepslate_iron_ore_modified_loot_table"
+    "remarkable:deepslate_iron_ore_modified_loot_table",
+    "remarkable:lapis_ore_modified_loot_table"
   ]
 }

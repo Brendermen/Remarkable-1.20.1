@@ -19,13 +19,13 @@ import java.util.List;
 public class UnifiedLootModifier extends LootModifier {
     public static final Supplier<Codec<UnifiedLootModifier>> CODEC = Suppliers.memoize(() ->
             RecordCodecBuilder.create(inst -> codecStart(inst)
-                    .and(Codec.STRING.fieldOf("mode").forGetter(m -> m.mode)) // "replace" or "add"
+                    .and(Codec.STRING.fieldOf("mode").forGetter(m -> m.mode))
                     .and(ItemEntry.CODEC.listOf().fieldOf("items").forGetter(m -> m.items))
                     .apply(inst, UnifiedLootModifier::new)
             )
     );
 
-    private final String mode; // "replace" or "add"
+    private final String mode;
     private final List<ItemEntry> items;
 
     protected UnifiedLootModifier(LootItemCondition[] conditionsIn, String mode, List<ItemEntry> items) {
@@ -41,7 +41,6 @@ public class UnifiedLootModifier extends LootModifier {
         }
 
         for (ItemEntry entry : items) {
-            // Check if the item should drop based on the weight
             if (context.getRandom().nextFloat() <= entry.weight) {
                 int finalCount = entry.count > 0 ? entry.count : entry.min + context.getRandom().nextInt(entry.max - entry.min + 1);
                 generatedLoot.add(new ItemStack(entry.item, finalCount));
@@ -63,7 +62,7 @@ public class UnifiedLootModifier extends LootModifier {
                         Codec.INT.optionalFieldOf("min", 1).forGetter(e -> e.min),
                         Codec.INT.optionalFieldOf("max", 1).forGetter(e -> e.max),
                         Codec.INT.optionalFieldOf("count", 0).forGetter(e -> e.count),
-                        Codec.FLOAT.optionalFieldOf("weight", 1.0f).forGetter(e -> e.weight) // Weight with default 1.0 (100%)
+                        Codec.FLOAT.optionalFieldOf("weight", 1.0f).forGetter(e -> e.weight)
                 ).apply(inst, ItemEntry::new)
         );
 
@@ -71,7 +70,7 @@ public class UnifiedLootModifier extends LootModifier {
         private final int min;
         private final int max;
         private final int count;
-        private final float weight; // The weight (chance) of the item dropping
+        private final float weight;
 
         public ItemEntry(Item item, int min, int max, int count, float weight) {
             this.item = item;
@@ -82,3 +81,8 @@ public class UnifiedLootModifier extends LootModifier {
         }
     }
 }
+
+
+//Add a remove feature
+//Add fortune
+//Add silk touch
