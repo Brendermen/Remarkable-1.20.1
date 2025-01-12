@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "remarkable:ore_deep_dirt",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores"
+}

@@ -320,6 +320,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
     public static final RegistryObject<Block> DARK_OAK_CRAFTING_TABLE = registerBlock("dark_oak_crafting_table",
             () -> new ModCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
+    public static final RegistryObject<Block> DEEP_DIRT = registerBlock("deep_dirt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE = registerBlock("deep_elder_prismarine",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_BRICKS = registerBlock("deep_elder_prismarine_bricks",
